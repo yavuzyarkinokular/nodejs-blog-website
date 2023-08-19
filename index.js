@@ -12,7 +12,7 @@ app.use(indexRoutes);
 const server = app.listen(8800, (err) => {
   if (err) {
     const getPort = server.address().port;
-    console.log("check yor port number", getPort);
+    console.log("check your port number", getPort);
   }
   console.log("Connected");
 });

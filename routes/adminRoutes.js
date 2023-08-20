@@ -2,6 +2,9 @@ const express = require("express");
 
 const router = express.Router();
 
+router.get('/admin',(req.res)={
+  res.render('/admin/admin')
+})
 router.get("/signin", (req, res) => {
   res.render("admin/signin");
 });

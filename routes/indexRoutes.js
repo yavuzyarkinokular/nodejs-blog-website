@@ -35,4 +35,10 @@ router.get("/contact", (req, res) => {
 router.get("/post", (req, res) => {
   res.render("post");
 });
+router.get("/resume", (req, res) => {
+  res.render("resume");
+});
+router.get("/signin", (req, res) => {
+  res.render("signin");
+});
 module.exports = router;
